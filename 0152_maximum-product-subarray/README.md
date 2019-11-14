@@ -1,0 +1,16 @@
+###152. Maximum Product Subarray<br>
+https://leetcode.com/problems/maximum-product-subarray/
+<br>
+####Problem Desciption:
+Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product.
+
+- Example 1:<br>
+`Input: [2,3,-2,4]`<br>
+`Output: 6`<br>
+`Explanation: [2,3] has the largest product 6.`
+
+
+- Example 2:<br>
+`Input: [-2,0,-1]`<br>
+`Output: 0`<br>
+`Explanation: The result cannot be 2, because [-2,-1] is not a subarray.`
