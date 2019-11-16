@@ -1,7 +1,7 @@
-###152. Maximum Product Subarray<br>
+### 152. Maximum Product Subarray<br>
 https://leetcode.com/problems/maximum-product-subarray/
 <br>
-####Problem Desciption:
+#### Problem Desciption:
 Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product.
 
 - Example 1:<br>
