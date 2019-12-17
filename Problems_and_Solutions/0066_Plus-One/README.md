@@ -2,6 +2,8 @@
 
 https://leetcode.com/problems/plus-one/
 
+---
+
 #### Problem Description:
 
 Given a **non-empty** array of digits representing a non-negative integer, plus one to the integer.
@@ -21,3 +23,23 @@ You may assume the integer does not contain any leading zero, except the number 
 **Input**: [4,3,2,1]
 **Output**: [4,3,2,2]
 **Explanation**: The array represents the integer 4321.
+
+---
+
+###### Idea:
+
+**Time Complexity**: `O(n)`
+**Space Complexity**: `O(1)`
+
+Step 1-1: Trace the array backwardly, and check current digit is 9 or NOT for carrying 1 to next digit
+Step 1-2: If the first digit = 9 + 1 => 1**0**
+
+the original array would need to expand with `[1]` in the beginning
+
+```
+Example:
+[9,9,9]
+=> [0,0,0]
+=> [1] + [0,0,0]
+=> [1,0,0,0]
+```
