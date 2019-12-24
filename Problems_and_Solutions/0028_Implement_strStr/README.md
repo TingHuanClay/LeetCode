@@ -22,6 +22,12 @@ Return the index of the first occurrence of needle in haystack, or **-1** if nee
 
 **Output**: -1
 
+###### Example 3:
+
+**Input**: haystack = "adsgwadsxdsgwadsgz", needle = "dsgwadsgz"
+
+**Output**: 9
+
 #### Clarification:
 
 What should we return when `needle` is an empty string? This is a great question to ask during an interview.
@@ -32,5 +38,13 @@ For the purpose of this problem, we will return 0 when `needle` is an empty stri
 
 ###### Idea:
 
+`this initial solution is quite slow`
 **Time Complexity**: `O(m*n)`, m & n are the length of string input
-**Space Complexity**: `O(n)`, n are the length of string input
+
+###### Solution with KMP Algorithm
+
+Knuth–Morris–Pratt (KMP) Pattern Matching Substring Search
+[Reference](https://www.youtube.com/watch?v=BXCEFAzhxGY)
+sds
+
+[Code Example](https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/)
