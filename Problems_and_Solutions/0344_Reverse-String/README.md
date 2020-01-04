@@ -28,4 +28,10 @@ You may assume all the characters consist of [printable ascii characters](https:
 
 #### Idea
 
-**Time Complexity**: `O()`
+just leverage two pointers and appoint them to the beginning and the end of the String
+and swap the characters of current positions at each iteration
+beginning++ & end-- after the iteration
+break the loop when beginning >= end
+then we have the answer of the reverse string.
+
+**Time Complexity**: `O(n)` n is the length of the String
