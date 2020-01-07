@@ -58,4 +58,6 @@ print(nums[i]);
 
 ###### Idea:
 
-**Time Complexity**: `O()`
+use two pointer to resolve this question in O(n) iteration
+
+**Time Complexity**: `O(n)`
