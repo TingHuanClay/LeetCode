@@ -26,4 +26,10 @@ Given a binary array, find the maximum number of consecutive 1s in this array.
 
 ###### Idea:
 
-**Time Complexity**: `O()`
+You can use two pointer to resolve this question with sliding window.
+But we can reduce it to one pointer and 1 time traverse with keeping the global optimal result.
+
+Please be noticed that you can also enhance the source code to one line in each iteration to enhance performance when it run in JVM.
+For more detail, please check [[source code]](./Solution.java)
+
+**Time Complexity**: `O(n)`
