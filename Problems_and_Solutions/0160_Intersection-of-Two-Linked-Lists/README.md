@@ -57,5 +57,10 @@ Explanation: The two lists do not intersect, so return null.
 
 ###### Idea:
 
-**Time Complexity**: `O()`
-**Space Complexity**: `O()`
+Time Complexity: O(n) the while loop would traverse the lists twice when
+ListA has different length with ListB and switch the start node at 2nd
+iteration. => the 2 pointers would meet at the intersection point at 2nd
+iteration.
+
+**Time Complexity**: `O(n)`
+**Space Complexity**: `O(1)`
