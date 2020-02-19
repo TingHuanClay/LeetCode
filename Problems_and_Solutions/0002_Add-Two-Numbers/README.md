@@ -22,4 +22,6 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 ###### Idea:
 
+Keep traversing both lists and add the 2 values with carry from previous node.
+
 **Time Complexity**: `O(n)`
