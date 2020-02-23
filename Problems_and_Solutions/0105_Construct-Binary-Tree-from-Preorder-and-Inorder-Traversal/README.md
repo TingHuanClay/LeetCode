@@ -42,5 +42,7 @@ After that, the **sInOrder ub-array** will be separated at 3 parts
 Be Noticed that the size of the Subtree is the same in both array
 which is useful to find out the beginning and the end of the sub-array for next iteration.
 
-**Time Complexity**: `O()`
-**Space Complexity**: `O()`
+Also Use Map to keep the Index of Inorder for improving the performance
+
+**Time Complexity**: `O(n)`
+**Space Complexity**: `O(n)`
