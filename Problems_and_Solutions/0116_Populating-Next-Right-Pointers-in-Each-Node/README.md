@@ -26,6 +26,9 @@ Initially, all next pointers are set to `NULL`.
 - You may only use constant extra space.
 - Recursive approach is fine, you may assume implicit stack space does not count as extra space for this problem.
 
+**Example:**
+![image](116_sample.png)
+
 ```
 Input: root = [1,2,3,4,5,6,7]
 Output: [1,#,2,3,#,4,5,6,7,#]
