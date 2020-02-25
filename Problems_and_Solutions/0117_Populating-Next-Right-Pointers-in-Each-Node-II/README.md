@@ -44,5 +44,13 @@ Explanation: Given the above binary tree (Figure A), your function should popula
 
 ###### Idea:
 
-**Time Complexity**: `O()`
-**Space Complexity**: `O()`
+Use 2 pointer and traverse the tree level by level (using .next)
+
+and keep building pointer of lower level by .next while traversing the upper level.
+
+Besides, you have to memorize with third pointer for the beginning of lower level.
+
+After that, you can move the pointer to next level for next level iteration.
+
+**Time Complexity**: `O(n)`
+**Space Complexity**: `O(1)`
