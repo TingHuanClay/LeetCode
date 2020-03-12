@@ -29,5 +29,12 @@ board =
 
 ###### Idea:
 
+Backtracking pattern:
+
+- Step 1: check bottom case
+- Step 2: check boundary or NOT
+- Step 3: Find target for current iteration (mark current position as visited) and move to next iteration(4 directions in this question)
+- Step 4: clean the mark in previous step
+
 **Time Complexity**: `O(n^2 * 4^L), n: row/col size, L: length of the word`
 **Space Complexity**: `O(L)`
