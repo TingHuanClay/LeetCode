@@ -29,5 +29,5 @@ board =
 
 ###### Idea:
 
-**Time Complexity**: `O()`
-**Space Complexity**: `O()`
+**Time Complexity**: `O(n^2 * 4^L), n: row/col size, L: length of the word`
+**Space Complexity**: `O(L)`
