@@ -20,5 +20,13 @@ Output: [-1,-1]
 
 ###### Idea:
 
+Run ~BinarySearch twice for searching the left most target and right most target.
+
+~BinarySearch is similar to Binary Search, but change the index when ever searched and found the target to get the corner.
+
+so generally time complexity is logn + log n =< O(logn)
+
+but we can do some enhance when there is no target found in the first run of ~BinarySearch.
+
 **Time Complexity**: `O(logn)`
 **Space Complexity**: `O(1)`
