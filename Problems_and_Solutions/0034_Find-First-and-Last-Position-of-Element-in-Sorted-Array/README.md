@@ -20,5 +20,5 @@ Output: [-1,-1]
 
 ###### Idea:
 
-**Time Complexity**: `O()`
-**Space Complexity**: `O()`
+**Time Complexity**: `O(logn)`
+**Space Complexity**: `O(1)`
